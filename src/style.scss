@@ -1,0 +1,12 @@
+
+.slide-tuning {
+  &.slide-tuning--horizontal {
+    cursor: ew-resize;
+  }
+  &.slide-tuning--vertical {
+    cursor: ns-resize;
+  }
+  &.slide-tuning--active {
+    user-select: none;
+  }
+}
