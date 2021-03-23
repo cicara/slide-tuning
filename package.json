@@ -13,7 +13,6 @@
     "pretest": "npm run build",
     "prepublish": "npm run build"
   },
-  "private": true,
   "author": "鸿则 <hungtcs@outlook.com> (https://github.com/hungtcs)",
   "repository": {
     "type": "git",
