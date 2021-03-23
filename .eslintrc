@@ -12,7 +12,17 @@
   "rules": {
     "indent": [
       "error",
-      2
-    ]
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-empty": [
+      "warn"
+    ],
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-function": ["warn"],
+    "@typescript-eslint/no-non-null-assertion": "off"
   }
 }

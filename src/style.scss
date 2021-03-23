@@ -1,4 +1,8 @@
 
+body.slide-tuning--active {
+  cursor: none;
+}
+
 .slide-tuning {
   &.slide-tuning--horizontal {
     cursor: ew-resize;

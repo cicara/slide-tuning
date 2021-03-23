@@ -1,9 +1,11 @@
-import { Hello } from '..';
+import { SlideTuning } from '..';
 
-describe('Hello', () => {
+describe('SlideTuning', () => {
 
-  it('Hello should equlas "hello rollup!"', () => {
-    expect(Hello).toEqual('hello rollup!');
+  it('element classlist should contains "slide-tuning"', () => {
+    const element = document.createElement('span');
+    const slideTuning = new SlideTuning({ value: 0, element });
+    expect(element.classList.contains('slide-tuning')).toBe(true);
   });
 
 });

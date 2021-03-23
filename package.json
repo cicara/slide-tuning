@@ -1,7 +1,7 @@
 {
-  "name": "rollup-typescript-starter",
+  "name": "@cicara/slide-tuning",
   "version": "0.0.1",
-  "description": "rollup typescript starter template",
+  "description": "adjust the value by sliding the mouse",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
@@ -14,16 +14,16 @@
     "prepublish": "npm run build"
   },
   "private": true,
+  "author": "鸿则 <hungtcs@outlook.com> (https://github.com/hungtcs)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hungtcs-lab/rollup-typescript-starter.git"
+    "url": "git+https://github.com/cicara/slide-tuning.git"
   },
-  "author": "鸿则 <hungtcs@outlook.com> (https://github.com/hungtcs)",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hungtcs-lab/rollup-typescript-starter/issues"
+    "url": "https://github.com/cicara/slide-tuning/issues"
   },
-  "homepage": "https://github.com/hungtcs-lab/rollup-typescript-starter#readme",
+  "homepage": "https://github.com/cicara/slide-tuning#readme",
+  "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^11.2.0",
     "@rollup/plugin-typescript": "^8.2.0",
@@ -43,5 +43,9 @@
     "ts-node": "^9.1.1",
     "tslib": "^2.1.0",
     "typescript": "^4.2.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }

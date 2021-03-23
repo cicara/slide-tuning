@@ -1,9 +1,17 @@
-Rollup Typescript Starter
-===
+Slide Tuning
+====
 
-### Get Started
-
+### Installation
 ```shell
-npm install
-npm start
+npm i @cicara/slide-tuning
+```
+```typescript
+import { SlideTuning } from '@cicara/slide-tuning';
+
+new SlideTuning(
+  {
+    value: 0,
+    element: document.querySelector('.slide-tuning-test'),
+  },
+);
 ```
